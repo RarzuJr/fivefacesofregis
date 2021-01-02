@@ -35,5 +35,11 @@ footer {
    display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 50%;
+}
+.leaders {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
