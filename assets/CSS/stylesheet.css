@@ -27,3 +27,13 @@ footer {
    font-size: x-small
    ;
 }
+.card {
+   text-align: center;
+   
+}
+.fampic {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
