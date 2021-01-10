@@ -2,8 +2,12 @@
 body {
    background-color: white; 
 }
-.navbar-nav {
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
+
 
 .let{
    padding-top: 5%;
@@ -17,9 +21,6 @@ text-align: center;
 padding-top:13%;
 }
 
-.a {
-   
-}
 
 footer {
    padding-top: 7%;
@@ -43,14 +44,7 @@ footer {
   margin-right: auto;
   width: 40%;
 }
-.card {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
-}
+
 /* Dropdown Button */
 .dropbtn {
    background-color: white;
@@ -93,3 +87,4 @@ footer {
  
  /* Change the background color of the dropdown button when the dropdown content is shown */
  .dropdown:hover .dropbtn {background-color: whitesmoke}
+
